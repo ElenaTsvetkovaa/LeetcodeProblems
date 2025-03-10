@@ -20,6 +20,6 @@ def search_insert(nums: List[int], target: int) -> int:
             left = mid_idx + 1
     return left
 
-nums = [1,3,5,6,7]
-target = 6
+nums = [1,3,5,6]
+target = 5
 print(search_insert(nums, target))
