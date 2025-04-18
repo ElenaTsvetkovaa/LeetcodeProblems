@@ -1,18 +1,17 @@
-from math import sqrt, ceil
 
-
-def count_primes(num):
-    if num <= 2:
+def count_primes(n):
+    if n <= 2:
         return 0
 
-    non_primes = set()
+    is_prime = [True] * n
+    is_prime[0] = is_prime[1] = False
 
-    for n in range(2, int(num ** 0.5) + 1):
-        if n not in non_primes:
-            for p in range(n * n, num, n):
-                if p % n == 0:
-                    non_primes.add(p)
-    return len([x for x in range(2, num) if x not in non_primes])
+    for i in range(2, int(n ** 0.5)+1):
+        if is_prime[i]:
+            for p in range(i * i, n, i):
+                if p % i == 0:
+                    is_prime[p] = False
 
+    return sum(is_prime)
 
-print(count_primes(10))
+print(count_primes(30))
