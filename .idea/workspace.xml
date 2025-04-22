@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0059d86e-8c27-4fcc-9f62-042240b9167e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FirstProblems/prime_arrangements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concepts/dynamic_fibonacci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concepts/permutation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,10 +51,12 @@
   "keyToString": {
     "Python.204_count_primes.executor": "Debug",
     "Python.2523_closest_prime_nums_in_range.executor": "Debug",
+    "Python.dynamic_fibonacci.executor": "Debug",
     "Python.fizz_buzz.executor": "Run",
     "Python.geometric_progression.executor": "Debug",
     "Python.middle_of_the_linked_list.executor": "Run",
-    "Python.prime_arrangements.executor": "Run",
+    "Python.permutation.executor": "Debug",
+    "Python.prime_arrangements.executor": "Debug",
     "Python.prime_pairs_with_target_sum.executor": "Debug",
     "Python.richest_cusmore_wealth.executor": "Run",
     "Python.steps_to_reduce_num_to_zero.executor": "Run",
@@ -74,30 +77,7 @@
       <recent name="C:\Users\oWorkers\PycharmProjects\BeginnerLeetcodeProblems\FirstProblems" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.prime_arrangements">
-    <configuration name="204_count_primes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BeginnerLeetcodeProblems" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FirstProblems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FirstProblems/204_count_primes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.dynamic_fibonacci">
     <configuration name="2523_closest_prime_nums_in_range" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BeginnerLeetcodeProblems" />
       <option name="ENV_FILES" value="" />
@@ -121,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="geometric_progression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dynamic_fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BeginnerLeetcodeProblems" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,7 +115,30 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/concepts/geometric_progression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/concepts/dynamic_fibonacci.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="permutation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BeginnerLeetcodeProblems" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/concepts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/concepts/permutation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dynamic_fibonacci" />
+        <item itemvalue="Python.permutation" />
         <item itemvalue="Python.prime_arrangements" />
         <item itemvalue="Python.prime_pairs_with_target_sum" />
         <item itemvalue="Python.2523_closest_prime_nums_in_range" />
-        <item itemvalue="Python.204_count_primes" />
-        <item itemvalue="Python.geometric_progression" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +225,8 @@
       <workItem from="1743851355981" duration="2725000" />
       <workItem from="1743920268031" duration="744000" />
       <workItem from="1744699525007" duration="5000" />
-      <workItem from="1744957926523" duration="19912000" />
+      <workItem from="1744957926523" duration="20076000" />
+      <workItem from="1745042863053" duration="5710000" />
     </task>
     <servers />
   </component>
@@ -237,19 +241,26 @@
           <line>27</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/concepts/permutation.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BeginnerLeetcodeProblems$timsort_exp.coverage" NAME="timsort_exp Coverage Results" MODIFIED="1743920303289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FirstProblems" />
-    <SUITE FILE_PATH="coverage/BeginnerLeetcodeProblems$fizz_buzz.coverage" NAME="fizz_buzz Coverage Results" MODIFIED="1740411804776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BeginnerLeetcodeProblems$prime_arrangements.coverage" NAME="prime_arrangements Coverage Results" MODIFIED="1745048334972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FirstProblems" />
     <SUITE FILE_PATH="coverage/BeginnerLeetcodeProblems$2523_closest_prime_nums_in_range.coverage" NAME="2523_closest_prime_nums_in_range Coverage Results" MODIFIED="1744972763108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FirstProblems" />
-    <SUITE FILE_PATH="coverage/BeginnerLeetcodeProblems$prime_arrangements.coverage" NAME="prime_arrangements Coverage Results" MODIFIED="1744980368816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FirstProblems" />
     <SUITE FILE_PATH="coverage/BeginnerLeetcodeProblems$steps_to_reduce_num_to_zero.coverage" NAME="steps_to_reduce_num_to_zero Coverage Results" MODIFIED="1740415116620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FirstProblems" />
-    <SUITE FILE_PATH="coverage/BeginnerLeetcodeProblems$richest_cusmore_wealth.coverage" NAME="richest_cusmore_wealth Coverage Results" MODIFIED="1740410360765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FirstProblems" />
     <SUITE FILE_PATH="coverage/BeginnerLeetcodeProblems$prime_pairs_with_target_sum.coverage" NAME="prime_pairs_with_target_sum Coverage Results" MODIFIED="1744978649250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FirstProblems" />
     <SUITE FILE_PATH="coverage/BeginnerLeetcodeProblems$204_count_primes.coverage" NAME="204_count_primes Coverage Results" MODIFIED="1744966557353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FirstProblems" />
     <SUITE FILE_PATH="coverage/BeginnerLeetcodeProblems$middle_of_the_linked_list.coverage" NAME="middle_of_the_linked_list Coverage Results" MODIFIED="1740416147321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FirstProblems" />
     <SUITE FILE_PATH="coverage/BeginnerLeetcodeProblems$geometric_progression.coverage" NAME="geometric_progression Coverage Results" MODIFIED="1743920313587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/concepts" />
+    <SUITE FILE_PATH="coverage/BeginnerLeetcodeProblems$fizz_buzz.coverage" NAME="fizz_buzz Coverage Results" MODIFIED="1740411804776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BeginnerLeetcodeProblems$dynamic_fibonacci.coverage" NAME="dynamic_fibonacci Coverage Results" MODIFIED="1745060311023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/concepts" />
+    <SUITE FILE_PATH="coverage/BeginnerLeetcodeProblems$richest_cusmore_wealth.coverage" NAME="richest_cusmore_wealth Coverage Results" MODIFIED="1740410360765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FirstProblems" />
+    <SUITE FILE_PATH="coverage/BeginnerLeetcodeProblems$permutation.coverage" NAME="permutation Coverage Results" MODIFIED="1745060287720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/concepts" />
   </component>
 </project>
